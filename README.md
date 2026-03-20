@@ -10,7 +10,7 @@ docker run -p 5000:5000 bmw-app
 
 Open: http://localhost:5000
 
-How to Use the Website
+## How to Use the Website
 
 1. Select a BMW Model from the dropdown list.
 
@@ -22,7 +22,7 @@ How to Use the Website
 
 5. The prediction result will be shown on the right side of the page.
 
-Project Structure
+## Project Structure
 .
 ├── app.py
 ├── templates/
@@ -35,7 +35,7 @@ Project Structure
 ├── Demo_Assignment_Video.mp4
 └── README.md
 
-File Descriptions
+## File Descriptions
 
 - app.py
 Main Flask backend application. It loads the trained model, receives user input from the website, performs prediction, and sends the result back to the frontend.
@@ -64,7 +64,7 @@ Demonstration video showing that the website runs correctly and the prediction s
 - README.md
 Project documentation file containing setup steps, usage instructions, project structure, and file descriptions.
 
-Authors
+## Authors
 
 Natthanon Narongsaksakul, st126113
 https://github.com/st126113-hash/
